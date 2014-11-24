@@ -1,6 +1,6 @@
 ActiveAdmin.register Product do
 
-
+  permit_params :name, :flavor_text, :condition, :foil, :price, :stock_quantity, :image_filename
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
